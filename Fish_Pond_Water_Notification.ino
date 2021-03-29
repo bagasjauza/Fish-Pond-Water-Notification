@@ -76,7 +76,7 @@ if (distance <= 20){
   lcd.setCursor(0,0);
   lcd.print("Water in the");
   lcd.setCursor(0,1);
-  lcd.print("pool is enough");
+  lcd.print("pond is enough");
   delay(200);
 }
 else if (distance >= 60){
